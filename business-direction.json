@@ -1,0 +1,484 @@
+{
+  "generationMode": "deep",
+  "_generationMeta": {
+    "mode": "deep",
+    "timestamp": "2026-04-08T22:57:36.710Z",
+    "leadDataQuality": "medium-low",
+    "syntheticEnrichmentUsed": true,
+    "aiUsed": true,
+    "aiFailed": false,
+    "aiCalls": 3,
+    "aiSuccesses": 3,
+    "hero": {
+      "headlineSource": "ai-deep",
+      "subheadlineSource": "ai-deep",
+      "aiAttempted": true,
+      "aiFallback": false
+    },
+    "services": {
+      "source": "synthetic-niche",
+      "realCategories": 6,
+      "aiEnriched": false
+    },
+    "reviews": {
+      "source": "segment-enriched",
+      "realCount": 0
+    },
+    "cta": {
+      "source": "ai-deep",
+      "aiAttempted": true,
+      "aiFallback": false
+    },
+    "about": {
+      "source": "ai-deep",
+      "aiAttempted": true,
+      "aiFallback": false
+    },
+    "faq": {
+      "source": "synthetic-niche"
+    },
+    "visualDirection": {
+      "source": "hash-variety",
+      "accentHue": 43,
+      "moodShift": "warm-intimate",
+      "layoutVariant": "hero-split"
+    },
+    "imagery": {
+      "heroSource": "segment-fallback",
+      "aboutSource": "segment-fallback",
+      "galleryRealCount": 0,
+      "logoSource": "generated-initial"
+    },
+    "diagnosticoIA": {
+      "available": false,
+      "fieldsUsed": []
+    },
+    "fallbacks": []
+  },
+  "signals": {
+    "businessType": "local-service",
+    "segment": "automotivo",
+    "subsegments": [
+      "urgencia",
+      "confianca",
+      "pratico"
+    ],
+    "salesModel": "urgency-trust",
+    "customerIntent": "resolver-urgente",
+    "decisionSpeed": 0.9,
+    "trustNeed": 0.8,
+    "visualWeight": 0.4,
+    "bookingNeed": false,
+    "catalogNeed": false,
+    "locationNeed": true,
+    "socialProofNeed": 0.7,
+    "urgencyProfile": 0.9,
+    "digitalMaturity": "baixa",
+    "toneHints": [
+      "direto",
+      "confiavel",
+      "tecnico"
+    ],
+    "evidence": [
+      {
+        "type": "confirmed",
+        "source": "segment-match",
+        "detail": "Nicho \"borracharia\" matched → automotivo"
+      },
+      {
+        "type": "confirmed",
+        "source": "google-rating",
+        "detail": "4.2★ (40 avaliações)"
+      },
+      {
+        "type": "confirmed",
+        "source": "lead-data",
+        "detail": "Cidade: Osasco"
+      }
+    ],
+    "unknowns": [
+      "no-digital-presence",
+      "ia-diagnosis-missing"
+    ],
+    "lifestyleSignal": 0.05,
+    "luxurySignal": 0.05,
+    "urgencySignal": 0.9
+  },
+  "profile": {
+    "primarySegment": "automotivo",
+    "secondarySegments": [
+      "urgencia",
+      "confianca",
+      "pratico"
+    ],
+    "businessMode": "local-service",
+    "audience": [
+      "motoristas",
+      "frota-comercial"
+    ],
+    "customerMindset": [
+      "preciso-agora",
+      "sem-tempo",
+      "preciso-confiar",
+      "quero-referencias"
+    ],
+    "purchaseContext": [
+      "emergencia",
+      "necessidade-imediata"
+    ],
+    "decisionDynamics": {
+      "speed": "rapida",
+      "frictionTolerance": "alta",
+      "trustBarrier": "alto"
+    },
+    "commercialNeeds": {
+      "booking": false,
+      "whatsapp": true,
+      "catalog": false,
+      "location": true,
+      "reviews": true,
+      "proof": true
+    },
+    "brandVibe": [
+      "pratico",
+      "direto",
+      "eficiente"
+    ],
+    "visualDirectionHints": [
+      "clean",
+      "cores-frias-ou-neutras",
+      "certificacoes-visiveis",
+      "cta-acima-fold",
+      "cor-quente-cta",
+      "layout-simples"
+    ],
+    "copyDirectionHints": [
+      "frases-curtas",
+      "acao-imediata",
+      "dados-concretos",
+      "depoimentos",
+      "credenciais"
+    ],
+    "ctaDirectionHints": [
+      "resolver-agora",
+      "orcamento-rapido"
+    ],
+    "antiPatterns": [
+      "visual-premium-luxo",
+      "paleta-clean-pastel",
+      "booking-salon"
+    ]
+  },
+  "direction": {
+    "theme": {
+      "paletteMode": "bold-action",
+      "contrastLevel": "high",
+      "density": "compact",
+      "visualTemperature": "neutral",
+      "preferredMood": [
+        "pratico",
+        "direto",
+        "eficiente"
+      ]
+    },
+    "hero": {
+      "style": "bold-direct",
+      "emphasis": "trust",
+      "headlineMode": "problem-solution",
+      "subheadlineMode": "benefit-direct",
+      "backgroundDirection": "subtle-gradient",
+      "ctaPriority": "urgency-contact"
+    },
+    "imagery": {
+      "focus": [
+        "oficina",
+        "veiculos",
+        "equipe-trabalho",
+        "ferramentas"
+      ],
+      "avoid": [
+        "lifestyle",
+        "premium-luxo",
+        "clean-pastel"
+      ],
+      "style": "clean-bright",
+      "realismLevel": "high-preference-real-photos"
+    },
+    "sections": {
+      "priorityOrder": [
+        "hero",
+        "sobre",
+        "avaliacoes",
+        "contato",
+        "faq",
+        "servicos",
+        "stats",
+        "cta-final",
+        "galeria"
+      ],
+      "include": {
+        "hero": true,
+        "sobre": true,
+        "avaliacoes": true,
+        "contato": true,
+        "faq": true,
+        "servicos": true,
+        "stats": true,
+        "cta-final": true,
+        "galeria": true
+      },
+      "exclude": {}
+    },
+    "proof": {
+      "emphasis": "moderate",
+      "type": "authority-credentials"
+    },
+    "conversion": {
+      "primaryCta": "Resolver Agora",
+      "secondaryCta": "Ver Orçamento",
+      "contactStrategy": "urgency-whatsapp",
+      "formMode": "detailed"
+    },
+    "copy": {
+      "tone": "direto-objetivo",
+      "sentenceStyle": "short-punchy",
+      "persuasionMode": "proof-authority",
+      "avoid": []
+    }
+  },
+  "applied": {
+    "overrides": [
+      "palette:bold-action",
+      "imagery:automotivo",
+      "assets:fallback-only",
+      "ingestion:0-sources()",
+      "services:real(synthetic-niche)",
+      "visual:variety(warm-intimate)",
+      "hero:ai-primary",
+      "cta:ai-primary",
+      "cta:Fixe seu carro agora!",
+      "enriched:lead-specifics",
+      "about:ai-primary",
+      "faq:synthetic-niche"
+    ],
+    "palette": {
+      "mode": "bold-action",
+      "bg": "#0a0a0a",
+      "primary": "#f97316",
+      "accent": "#ea580c",
+      "text": "#f5f5f5"
+    },
+    "imagery": {
+      "segment": "automotivo",
+      "heroImg": "https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=1920&q=80&auto=fo...",
+      "aboutImg": "https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?w=900&q=80&auto=for...",
+      "heroSource": "segment-fallback",
+      "aboutSource": "segment-fallback",
+      "gallerySource": "segment-fallback",
+      "galleryRealCount": 0,
+      "logoSource": "generated-initial",
+      "logoUrl": null
+    },
+    "assets": {
+      "resolved": true,
+      "applied": false,
+      "changes": [],
+      "meta": {
+        "websiteFetched": false,
+        "websiteError": null,
+        "googleMapsImages": 0,
+        "instagramAvailable": false,
+        "websiteUrl": null
+      }
+    },
+    "ingestion": {
+      "leadDataQuality": "low",
+      "officialSources": {
+        "site": false,
+        "instagram": false,
+        "maps": false,
+        "existingProjectAssets": false
+      },
+      "heroSource": "template",
+      "heroImageSource": "segment-fallback",
+      "servicesSource": "template",
+      "aboutSource": "template",
+      "faqSource": "template",
+      "ctaSource": "template",
+      "logoSource": "generated-initial",
+      "realFieldsUsed": [],
+      "realFieldCount": 0,
+      "sourceCount": 0,
+      "sources": [],
+      "websiteError": null
+    },
+    "cta": {
+      "primary": "Fixe seu carro agora!",
+      "secondary": "Peças de qualidade, preço justo!"
+    },
+    "sectionOrder": [
+      "hero",
+      "sobre",
+      "avaliacoes",
+      "contato",
+      "faq",
+      "servicos",
+      "stats",
+      "cta-final",
+      "galeria"
+    ],
+    "sectionLabelsSource": "automotivo",
+    "contentSource": "automotivo",
+    "tagline": {
+      "source": "dynamic-builder",
+      "value": "Atendimento rápido, preço justo e resultado com garantia. A Borracharia 24h Só Chamar em Osasco reso"
+    },
+    "iaInfluence": false,
+    "iaFields": null,
+    "enrichment": {
+      "hasLeadData": true,
+      "leadFlags": {
+        "hasAvaliacao": true,
+        "hasDescricao": false,
+        "hasHorarios": false,
+        "hasEndereco": true,
+        "hasInstagram": false,
+        "hasWebsite": false
+      },
+      "nameTokens": [
+        "rapido"
+      ],
+      "reviewsSource": "segment-enriched",
+      "heroHeadlineSource": "ai-deep",
+      "subheadlineSource": "ai-deep",
+      "aboutSource": "ai-deep",
+      "iaEnriched": false,
+      "siteContext": "new-creation"
+    }
+  },
+  "audit": {
+    "businessPersona": {
+      "empresa": "Borracharia 24h Só Chamar",
+      "segment": "automotivo",
+      "businessMode": "local-service",
+      "traits": [
+        "ágil/express"
+      ],
+      "tone": "direto-objetivo",
+      "brandVibe": [
+        "pratico",
+        "direto",
+        "eficiente"
+      ],
+      "audience": [
+        "motoristas",
+        "frota-comercial"
+      ],
+      "customerMindset": [
+        "preciso-agora",
+        "sem-tempo",
+        "preciso-confiar",
+        "quero-referencias"
+      ],
+      "salesModel": "urgency-trust",
+      "visualPersonality": "bold-action",
+      "heroStyle": "bold-direct",
+      "summary": "Borracharia 24h Só Chamar é um negócio tipo \"local-service\" no segmento \"automotivo\". Persona: ágil/express. Tom: direto-objetivo. Público: motoristas, frota-comercial."
+    },
+    "specificityMarkers": {
+      "heroHeadline": "business-specific",
+      "heroSubheadline": "business-specific",
+      "ctaPrimary": "Resolver Agora",
+      "ctaPrimarySource": "signal:urgency",
+      "ctaSecondary": "Ver Orçamento",
+      "reviews": "segment+business-specific",
+      "aboutParagraph": "businessMode:local-service",
+      "services": "segment:automotivo",
+      "faq": "segment:automotivo+location-faq",
+      "palette": "direction:bold-action",
+      "imagery": "segment:automotivo",
+      "stats": "lead-data-enriched",
+      "sectionLabels": "segment:automotivo",
+      "sectionOrder": "direction-weighted",
+      "tagline": "dynamic-builder",
+      "_score": "15/15",
+      "_pct": "100%"
+    },
+    "heroRationale": {
+      "headlineMode": "problem-solution",
+      "headlineSource": "name-personality-tokens",
+      "headlineValue": "Borracharia 24h Só Chamar - Resolva seu problema de primeira em Osasco",
+      "subheadlineSource": "enrichWithLeadSpecifics",
+      "emphasis": "trust",
+      "style": "bold-direct",
+      "why": "urgencySignal > 0.7 → hero bold-direct para ação imediata. headline mode problem-solution: cliente chega com urgência. nome tem personalidade (rapido) → headline customizado."
+    },
+    "ctaRationale": {
+      "primaryCta": "Resolver Agora",
+      "secondaryCta": "Ver Orçamento",
+      "contactStrategy": "urgency-whatsapp",
+      "why": "urgencySignal > 0.7 → CTA de urgência/resolver agora."
+    },
+    "proofRationale": {
+      "emphasis": "moderate",
+      "type": "authority-credentials",
+      "reviewsSource": "segment-templates-with-business-data",
+      "hasRealRating": true,
+      "ratingUsed": 4.2,
+      "why": "socialProofNeed moderado → prova social presente mas não dominante. avaliação real (4.2★) injeta credibilidade nos stats e reviews. tipo autoridade: negócio precisa de credenciais (saúde, jurídico)."
+    },
+    "copyRationale": {
+      "tone": "direto-objetivo",
+      "sentenceStyle": "short-punchy",
+      "persuasionMode": "proof-authority",
+      "avoid": [],
+      "aboutSource": "businessMode:local-service",
+      "why": "urgencySignal > 0.7 → tom direto e objetivo, frases curtas. persuasão por prova/autoridade — dados concretos e credenciais."
+    },
+    "why_this_business_is_not_generic": {
+      "reasons": [
+        "Hero headline personalizado pelos tokens de nome: \"Borracharia 24h Só Chamar - Resolva seu problema de primeira em Osasco\"",
+        "Subtítulo construído com dados reais do lead (avaliação, cidade, modo de negócio)",
+        "Reviews mencionam \"Borracharia 24h Só Chamar\" por nome, não são genéricos",
+        "Stats usam avaliação real: 4.2★ (40 avaliações)",
+        "FAQ inclui localização real: Av. Victor Civita, 14 - Jardim Teresa, Osasco - SP, 06140-270, Brasil, Jardim Teresa, Osasco",
+        "Nome do negócio tem personalidade: rapido"
+      ],
+      "specificFieldCount": 15,
+      "totalFields": 15,
+      "verdict": "altamente específico"
+    },
+    "fieldProvenance": {
+      "fromLead": [
+        "empresa",
+        "nicho",
+        "cidade",
+        "telefone",
+        "avaliacao",
+        "numero_avaliacoes",
+        "endereco",
+        "bairro"
+      ],
+      "fromCRM": [],
+      "fromIA": [],
+      "inferred": [
+        "segment:automotivo",
+        "businessMode:local-service",
+        "paletteMode:bold-action",
+        "heroStyle:bold-direct",
+        "copyTone:direto-objetivo",
+        "salesModel:urgency-trust",
+        "contactStrategy:urgency-whatsapp",
+        "nameTokens:rapido",
+        "sectionOrder:weighted-by-signals"
+      ],
+      "summary": {
+        "lead": 8,
+        "crm": 0,
+        "ia": 0,
+        "inferred": 9,
+        "total": 17
+      }
+    }
+  }
+}

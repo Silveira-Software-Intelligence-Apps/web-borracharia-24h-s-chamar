@@ -1,0 +1,164 @@
+{
+  "version": 1,
+  "generatedAt": "2026-04-08T22:57:36.714Z",
+  "sections": {
+    "hero": {
+      "headline": "Borracharia 24h Só Chamar - Resolva seu problema de primeira em Osasco",
+      "subheadline": "Com diagnóstico rápido e manutenção eficiente, garantimos que você esteja de volta à estrada com preço justo sem surpresas e peças de qualidade com garantia",
+      "ctaPrimary": "Fixe seu carro agora!",
+      "ctaSecondary": "Peças de qualidade, preço justo!",
+      "image": "https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=1920&q=80&auto=format&fit=crop",
+      "imageSource": "segment-fallback",
+      "source": "ai-deep"
+    },
+    "services": {
+      "items": [
+        {
+          "name": "Socorro 24h",
+          "icon": "🚗",
+          "desc": "Guincho e atendimento de emergência em Osasco"
+        },
+        {
+          "name": "Orçamento Transparente",
+          "icon": "💰",
+          "desc": "Preço justo, sem surpresas na hora de pagar"
+        },
+        {
+          "name": "Diagnóstico Computadorizado",
+          "icon": "💻",
+          "desc": "Scanner automotivo para identificar o problema exato"
+        },
+        {
+          "name": "Revisão Completa",
+          "icon": "🔍",
+          "desc": "Checklist de 30+ itens para garantir segurança total"
+        },
+        {
+          "name": "Freios & Suspensão",
+          "icon": "🛑",
+          "desc": "Troca e manutenção com peças de qualidade"
+        },
+        {
+          "name": "Motor & Injeção",
+          "icon": "⚙️",
+          "desc": "Reparo e regulagem com equipamento profissional"
+        }
+      ],
+      "source": "synthetic-niche"
+    },
+    "about": {
+      "text": "A Borracharia 24h Só Chamar é uma referência em Osasco para diagnóstico e manutenção de veículos. Com uma avaliação de 4.2 estrelas no Google, nossa equipe está comprometida em oferecer peças de qualidade com garantia, orçamento transparente e resolução eficiente de problemas. Localizada em Osasco, nossa borracharia é um destino confiável para automobilistas que buscam soluções rápidas e justas para suas necessidades.",
+      "image": "https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?w=900&q=80&auto=format&fit=crop",
+      "imageSource": "segment-fallback",
+      "source": "ai-deep"
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "Vocês fazem orçamento gratuito?",
+          "a": "Sim! O orçamento é 100% gratuito e sem compromisso. Traga o veículo ou envie os dados pelo WhatsApp."
+        },
+        {
+          "q": "Qual o prazo para atendimento?",
+          "a": "Serviços rápidos no mesmo dia. Revisões completas com prazo combinado no orçamento."
+        },
+        {
+          "q": "Os serviços têm garantia?",
+          "a": "Todos os serviços têm garantia. Trabalhamos com peças originais e de qualidade."
+        },
+        {
+          "q": "Quais formas de pagamento?",
+          "a": "Aceitamos dinheiro, cartão, PIX e parcelamos no cartão em até 6x sem juros."
+        },
+        {
+          "q": "Vocês atendem por agendamento?",
+          "a": "Atendemos com e sem agendamento, mas para serviços maiores recomendamos agendar."
+        }
+      ],
+      "source": "synthetic-niche"
+    },
+    "gallery": {
+      "images": [
+        "https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=600&q=80&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=600&q=80&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?w=600&q=80&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&q=80&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=600&q=80&auto=format&fit=crop"
+      ],
+      "realCount": 0,
+      "source": "segment-fallback"
+    },
+    "reviews": {
+      "items": [
+        {
+          "name": "Ricardo S.",
+          "text": "Levei o carro na Borracharia 24h Só Chamar e resolveram rápido. Orçamento justo, sem surpresa na hora de pagar. Virei cliente fiel.",
+          "rating": 5
+        },
+        {
+          "name": "Marcos A.",
+          "text": "Confiança é tudo nesse ramo e a equipe da Borracharia 24h Só Chamar passou credibilidade desde o primeiro contato. Melhor oficina em Osasco.",
+          "rating": 5
+        },
+        {
+          "name": "Patricia F.",
+          "text": "Atendimento rápido, mecânico honesto e peças de qualidade. Recomendo para quem precisa de confiança.",
+          "rating": 5
+        }
+      ],
+      "source": "segment-enriched"
+    },
+    "cta": {
+      "primaryText": "Fixe seu carro agora!",
+      "secondaryText": "Peças de qualidade, preço justo!",
+      "phone": "5511967342602",
+      "source": "ai-deep"
+    },
+    "branding": {
+      "logo": null,
+      "logoSource": "generated-initial",
+      "palette": {
+        "bg": "#0a0a0a",
+        "primary": "#f97316",
+        "accent": "#ea580c",
+        "text": "#f5f5f5"
+      },
+      "paletteMode": "bold-action",
+      "tone": "professional",
+      "source": "generated-initial"
+    }
+  },
+  "sectionOrder": [
+    "hero",
+    "sobre",
+    "avaliacoes",
+    "contato",
+    "faq",
+    "servicos",
+    "stats",
+    "cta-final",
+    "galeria"
+  ],
+  "visualProfile": {
+    "palette": {
+      "bg": "#0a0a0a",
+      "primary": "#f97316",
+      "accent": "#ea580c",
+      "text": "#f5f5f5"
+    },
+    "paletteMode": "bold-action",
+    "segment": "automotivo",
+    "mood": "warm-intimate",
+    "layoutVariant": "hero-split",
+    "accentHue": 43
+  },
+  "provenance": {
+    "generationMode": "deep",
+    "aiUsed": true,
+    "aiSuccesses": 3,
+    "aiCalls": 3,
+    "syntheticUsed": true,
+    "leadDataQuality": "medium-low"
+  }
+}
