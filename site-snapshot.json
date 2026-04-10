@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-08T22:57:36.714Z",
+  "generatedAt": "2026-04-10T03:15:41.455Z",
   "sections": {
     "hero": {
       "headline": "Borracharia 24h Só Chamar - Resolva seu problema de primeira em Osasco",
-      "subheadline": "Com diagnóstico rápido e manutenção eficiente, garantimos que você esteja de volta à estrada com preço justo sem surpresas e peças de qualidade com garantia",
-      "ctaPrimary": "Fixe seu carro agora!",
-      "ctaSecondary": "Peças de qualidade, preço justo!",
+      "subheadline": "** \"CBorracharia 24h — om mais de [número] anos de experiência e uma equipe treinada, garantimos que seu problema seja resolvido de primeira. Peças de qualidade com garantia e preços justos são a nossa especialidade em em Osasco.",
+      "ctaPrimary": "Resolver Agora",
+      "ctaSecondary": "Ver Orçamento",
       "image": "https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=1920&q=80&auto=format&fit=crop",
       "imageSource": "segment-fallback",
-      "source": "ai-deep"
+      "source": "existing-project"
     },
     "services": {
       "items": [
@@ -47,10 +47,10 @@
       "source": "synthetic-niche"
     },
     "about": {
-      "text": "A Borracharia 24h Só Chamar é uma referência em Osasco para diagnóstico e manutenção de veículos. Com uma avaliação de 4.2 estrelas no Google, nossa equipe está comprometida em oferecer peças de qualidade com garantia, orçamento transparente e resolução eficiente de problemas. Localizada em Osasco, nossa borracharia é um destino confiável para automobilistas que buscam soluções rápidas e justas para suas necessidades.",
+      "text": "Na Borracharia 24h Só Chamar, Borracharia é feito com responsabilidade e transparência, aqui em Osasco. Cada serviço é executado com atenção aos detalhes. Avaliação 4.2★ no Google.",
       "image": "https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?w=900&q=80&auto=format&fit=crop",
       "imageSource": "segment-fallback",
-      "source": "ai-deep"
+      "source": "preserved"
     },
     "faq": {
       "items": [
@@ -110,10 +110,10 @@
       "source": "segment-enriched"
     },
     "cta": {
-      "primaryText": "Fixe seu carro agora!",
-      "secondaryText": "Peças de qualidade, preço justo!",
+      "primaryText": "Resolver Agora",
+      "secondaryText": "Ver Orçamento",
       "phone": "5511967342602",
-      "source": "ai-deep"
+      "source": "preserved"
     },
     "branding": {
       "logo": null,
@@ -156,8 +156,8 @@
   "provenance": {
     "generationMode": "deep",
     "aiUsed": true,
-    "aiSuccesses": 3,
-    "aiCalls": 3,
+    "aiSuccesses": 1,
+    "aiCalls": 1,
     "syntheticUsed": true,
     "leadDataQuality": "medium-low"
   }

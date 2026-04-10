@@ -2,15 +2,15 @@
   "generationMode": "deep",
   "_generationMeta": {
     "mode": "deep",
-    "timestamp": "2026-04-08T22:57:36.710Z",
+    "timestamp": "2026-04-10T03:15:41.453Z",
     "leadDataQuality": "medium-low",
     "syntheticEnrichmentUsed": true,
     "aiUsed": true,
     "aiFailed": false,
-    "aiCalls": 3,
-    "aiSuccesses": 3,
+    "aiCalls": 1,
+    "aiSuccesses": 1,
     "hero": {
-      "headlineSource": "ai-deep",
+      "headlineSource": "existing-project",
       "subheadlineSource": "ai-deep",
       "aiAttempted": true,
       "aiFallback": false
@@ -25,13 +25,13 @@
       "realCount": 0
     },
     "cta": {
-      "source": "ai-deep",
-      "aiAttempted": true,
+      "source": "preserved",
+      "aiAttempted": false,
       "aiFallback": false
     },
     "about": {
-      "source": "ai-deep",
-      "aiAttempted": true,
+      "source": "preserved",
+      "aiAttempted": false,
       "aiFallback": false
     },
     "faq": {
@@ -249,17 +249,20 @@
   "applied": {
     "overrides": [
       "palette:bold-action",
+      "palette:reused-from-existing",
       "imagery:automotivo",
       "assets:fallback-only",
-      "ingestion:0-sources()",
+      "ingestion:1-sources(existing-project)",
       "services:real(synthetic-niche)",
       "visual:variety(warm-intimate)",
       "hero:ai-primary",
-      "cta:ai-primary",
-      "cta:Fixe seu carro agora!",
+      "cta:preserved",
+      "cta:Resolver Agora",
       "enriched:lead-specifics",
-      "about:ai-primary",
-      "faq:synthetic-niche"
+      "about:preserved",
+      "faq:synthetic-niche",
+      "hero:real(existing-project)",
+      "quality-guard:2-rewrites"
     ],
     "palette": {
       "mode": "bold-action",
@@ -297,24 +300,29 @@
         "site": false,
         "instagram": false,
         "maps": false,
-        "existingProjectAssets": false
+        "existingProjectAssets": true
       },
-      "heroSource": "template",
-      "heroImageSource": "segment-fallback",
-      "servicesSource": "template",
+      "heroSource": "existing-project",
+      "heroImageSource": "existing-project",
+      "servicesSource": "existing-project",
       "aboutSource": "template",
       "faqSource": "template",
       "ctaSource": "template",
       "logoSource": "generated-initial",
-      "realFieldsUsed": [],
-      "realFieldCount": 0,
-      "sourceCount": 0,
-      "sources": [],
+      "realFieldsUsed": [
+        "heroHeadline",
+        "services"
+      ],
+      "realFieldCount": 2,
+      "sourceCount": 1,
+      "sources": [
+        "existing-project"
+      ],
       "websiteError": null
     },
     "cta": {
-      "primary": "Fixe seu carro agora!",
-      "secondary": "Peças de qualidade, preço justo!"
+      "primary": "Resolver Agora",
+      "secondary": "Ver Orçamento"
     },
     "sectionOrder": [
       "hero",
@@ -349,11 +357,34 @@
         "rapido"
       ],
       "reviewsSource": "segment-enriched",
-      "heroHeadlineSource": "ai-deep",
+      "heroHeadlineSource": "existing-project",
       "subheadlineSource": "ai-deep",
-      "aboutSource": "ai-deep",
+      "aboutSource": "preserved",
       "iaEnriched": false,
       "siteContext": "new-creation"
+    }
+  },
+  "qualityGuard": {
+    "rewrites": 2,
+    "guarded": [
+      "about:fallback-narrative"
+    ],
+    "antiGenericTriggered": false,
+    "specificityInjected": true,
+    "narrativeFlow": {
+      "heroAngle": "solution",
+      "servicesAngle": "solution-oriented",
+      "aboutAngle": "trust",
+      "ctaAngle": "urgency"
+    },
+    "specificityContext": {
+      "concreteElements": [
+        "avaliacao"
+      ],
+      "differentiators": [
+        "em Osasco"
+      ],
+      "hasRealContent": false
     }
   },
   "audit": {
@@ -479,6 +510,92 @@
         "inferred": 9,
         "total": 17
       }
+    }
+  },
+  "preservation": {
+    "snapshotUsed": true,
+    "snapshotVersion": 1,
+    "snapshotSource": "structured-site-snapshot",
+    "leadDataQuality": "medium",
+    "sourceScores": {
+      "officialSite": 0,
+      "instagram": 0,
+      "googleMaps": 0,
+      "existingProjectAssets": 0.6499999999999999,
+      "existingProjectContent": 1,
+      "leadRaw": 0.35,
+      "synthetic": 0.15
+    },
+    "sectionQuality": {
+      "hero": 0.8500000000000001,
+      "services": 0.75,
+      "about": 0.8500000000000001,
+      "faq": 0.55,
+      "cta": 0.9,
+      "gallery": 0.35
+    },
+    "genericityScores": {
+      "hero": 0,
+      "services": 0.21176470588235294,
+      "about": 0.058823529411764705,
+      "faq": 0.21176470588235294,
+      "cta": 0.21176470588235294
+    },
+    "visualQuality": {
+      "hero": 0.75,
+      "gallery": 0.44999999999999996,
+      "branding": 0.6,
+      "overall": 0.6074999999999999
+    },
+    "actionBySection": {
+      "hero": "upgrade",
+      "services": "preserve",
+      "about": "preserve",
+      "faq": "polish",
+      "gallery": "upgrade",
+      "cta": "preserve"
+    },
+    "reasonBySection": {
+      "hero": "high-genericity + strong-source + medium-quality",
+      "services": "high-quality + low-genericity + strong-source",
+      "about": "high-quality + low-genericity + strong-source",
+      "faq": "medium-quality + low-genericity",
+      "gallery": "high-genericity + strong-source + weak-quality",
+      "cta": "high-quality + low-genericity + strong-source",
+      "_brandingProtected": "visual-quality-high"
+    },
+    "preservedSections": [
+      "services",
+      "about",
+      "cta"
+    ],
+    "polishedSections": [
+      "faq"
+    ],
+    "upgradedSections": [
+      "hero",
+      "gallery"
+    ],
+    "regeneratedSections": [],
+    "identity": {
+      "name": "Borracharia 24h Só Chamar",
+      "tone": "professional",
+      "positioning": [
+        "standard"
+      ]
+    },
+    "visualReuse": {
+      "paletteReused": true,
+      "logoReused": false,
+      "imagesReused": false,
+      "galleryReused": true
+    },
+    "existingProjectReuse": {
+      "usedTextBlocks": 8,
+      "usedImages": 6,
+      "usedLogo": false,
+      "usedPalette": true,
+      "usedSectionOrder": true
     }
   }
 }
